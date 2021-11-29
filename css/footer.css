@@ -1,0 +1,29 @@
+.footer__nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 40%;
+  right: 15px;
+  opacity: .8;
+}
+
+.footer__nav-link  {
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.footer__title {
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 28%;
+  right: -55px;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px white;
+}
+
+.footer__nav a:active, /* активная/посещенная ссылка */
+.footer__nav a:hover,  /* при наведении */
+.footer__nav a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}

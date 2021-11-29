@@ -1,0 +1,23 @@
+{
+  "name": "liferules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re-Dnor/life-rules.git"
+  },
+  "author": "Re-Dnor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Re-Dnor/life-rules/issues"
+  },
+  "homepage": "https://github.com/Re-Dnor/life-rules#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}

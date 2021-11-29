@@ -1,0 +1,40 @@
+/* HEADER */
+
+@media (max-width: 1025px) {
+  .header__title {
+    font-size: 20px;
+  }
+  .header__nav {
+    margin: 0 15px 0 0;
+  }
+  .header__nav_link {
+    margin-left: 0;
+  }
+  .rules {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 585px) {
+  .header__title {
+    margin-left: 10px;
+  }
+  
+}
+
+  @media (max-width: 365px){
+    .header__logo {
+      margin: 20px 0px 0px 20px;
+      height: 80px;
+      width: auto;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .header__title {
+      font-size: 15px;
+    }
+    .header__nav_link{
+      font-size: 15px;
+    }
+  }
